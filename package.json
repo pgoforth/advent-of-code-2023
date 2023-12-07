@@ -1,0 +1,22 @@
+{
+    "name": "@pgoforth/advent-of-code-2023",
+    "version": "2023.12.1",
+    "description": "Advent of Code 2023 Solutions",
+    "repository": "https://github.com/pgoforth/advent-of-code-2023",
+    "main": "index",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo 'Error: no test specified' && exit 1"
+    },
+    "bin": "index.js",
+    "author": "Preston Goforth",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "engines": {
+        "npm": ">=9.5.0",
+        "node": ">=18.0.0"
+    }
+}

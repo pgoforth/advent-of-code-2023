@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "resolveJsonModule": true,
+        "types": ["jest"],
+        "target": "ES2022"
+    },
+    "typeAcquisition": {
+        "include": ["jest"]
+    },
+    "include": ["**/*.js", "index.js"],
+    "exclude": ["**/*.test.js", "**/*.spec.js"]
+}
